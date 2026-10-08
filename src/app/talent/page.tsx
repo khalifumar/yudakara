@@ -4,8 +4,6 @@ import { getTalents, getCategories } from '@/lib/data/talentService';
 import { Search, Filter, Compass, MapPin } from 'lucide-react';
 import Link from 'next/link';
 
-export const dynamic = 'force-dynamic';
-
 interface TalentPageProps {
   searchParams: Promise<{
     kategori?: string;
